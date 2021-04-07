@@ -30,14 +30,6 @@ p, ol, ul, td {
   margin:33px;
 }
 
-.new-form {
-  display: flex;
-}
-
-.new-book-form {
-  text-align: center;
-}
-
 label {
   display: block;
 }
