@@ -29,3 +29,19 @@ p, ol, ul, td {
   line-height: 10px;
   margin:33px;
 }
+
+.new-form {
+  display: flex;
+}
+
+.new-book-form {
+  text-align: center;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  margin-bottom: 10px;
+}
