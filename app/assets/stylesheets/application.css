@@ -23,7 +23,7 @@ body {
   margin:33px;
 }
 
-p, ol, ul, td {
+p, ol, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size:13px;
   line-height: 10px;
@@ -62,7 +62,7 @@ label {
   color:#fff;
 }
 
-.error-message ul li {
+.error-message  li {
   font-size: 12px;
   list-style:square;
 }

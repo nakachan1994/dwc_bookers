@@ -34,19 +34,19 @@
           <%= @book.errors.count %>errors prohibited this book from being saved:
         </h2>
         <ul>
-          <%= @book.errors.full_messages.each do |message| %>
+          <% @book.errors.full_messages.each do |message| %>
           <li><%= message %></li>
-           <% end %>
+          <% end %>
         </ul>
       </div>
     <% end %>
       <!--エラーメッセージここまで-->
       <div class="form">
-        <label>Title</label>
+        <%= f.label :title %>
         <%= f.text_field :title %>
       </div>
       <div class="form">
-        <label>Body</label>
+        <%= f.label :body %>
         <%= f.text_area :body %>
       </div>
       <%= f.submit 'Create Book' %>
